@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Radio Canada Big', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4158D0;
+/* background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+}
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* .form-container{
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 25px;
+} */
+.input-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 1.7rem 0rem;
+  }
+
+.input-wrapper .input-text{
+    padding: 0.6rem 1rem;
+    border-radius: 2rem;
+    box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #EEE;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    transition: all 0.2s ease;
+    background: #E5F3FE;
+  }
+  .input-wrapper .input-text:focus{
+    box-shadow: inset 2px 2px 1px #BABECC, inset -2px -2px 5px #EEE;
+  }
+  .input-wrapper .input-label{
+    left: 1rem;
+    text-shadow: 1px 1px 1px #FFF;
+    pointer-events:none;
+    transition: all 0.6s ease;
+  }
+  .input-text:valid ~ .input-label, .input-text:focus ~ .input-label{
+    font-size: 0.8rem;
+    transform: translate(-0.2rem, -1.96rem);
+    color: #AAA;
+  }
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 1px;
+    font-family: 'Radio Canada Big';
+}
+.onboarding-page-login{
+    margin: 0 auto;
+ display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 25px;
+background: rgba(255, 255, 255, 0.2);
+ backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+ box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+ overflow: hidden;
+padding: 25px;
+z-index: 10;
+/* position: absolute; */
+     
+    }
+
+.submit-btn{
+    font-family: 'Radio Canada Big',sans-serif;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #41a5d0;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.submit-btn:hover{
+    background-color: #4158D0;
+}
